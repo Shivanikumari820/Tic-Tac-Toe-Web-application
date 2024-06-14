@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #150905;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+.container {
+    text-align: center;
+}
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #11c2d2;
+    font-size: 2em;
+    cursor: pointer;
+}
+#restartButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    color: brown;
+}
+#message {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: aliceblue;
+}
